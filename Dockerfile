@@ -1,5 +1,5 @@
 # FROM node:6-stretch
-FROM node:25.8.1
+FROM node:25.8.1-trixie-slim
 
 RUN mkdir /usr/src/goof
 RUN mkdir /tmp/extracted_files
